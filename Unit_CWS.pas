@@ -1,5 +1,5 @@
 unit Unit_CWS;
-// лндскэ ябъгх я яепбепнл (реумнкнцхъ SOAP)
+// ц▄ц▌ц└ц⌠ц▀ц° ц▒ц┌ц÷ц┤ц┬ ц▒ ц▒ц┘ц░ц┌ц┘ц░ц▌ц▄ (ц▓ц┘ц∙ц█ц▌ц▀ц▌ц┐ц┬ц÷ SOAP)
 
 interface
 
@@ -61,7 +61,7 @@ end;
 initialization
 
 InvRegistry.RegisterInterface(TypeInfo(CommunicationWithClient),
-  'http://communication.disp.pnhz.kz/', 'UTF-8');
+  'http://communication.disp.tsnproff.kz/', 'UTF-8');
 InvRegistry.RegisterDefaultSOAPAction(TypeInfo(CommunicationWithClient), '');
 
 end.
